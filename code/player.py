@@ -17,6 +17,7 @@ class Player(pygame.sprite.Sprite):
 
 
     def input(self):
+        #this returns an array of all of the keys that were pressed
         keys = pygame.key.get_pressed()
 
         if keys[pygame.K_UP]:
